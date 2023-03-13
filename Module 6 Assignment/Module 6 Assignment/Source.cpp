@@ -6,7 +6,6 @@ using namespace std;
 
 int main()
 {
-	// Checking whether a number is prime or not //
 	
 	// Appropriate variables // 
 
@@ -71,9 +70,35 @@ int main()
 	// Finding the largest number in an array of integers after the loop //
 	cout << arr[4] << endl;
 
+	string str;
+
 	// Reversing a string //
+	cout << "Please type in a word: " << endl;
+	cin >> str;
+	cout << "The word you chose is " << str << endl;
+	str = string(str.rbegin(), str.rend());
+	cout << "Word in reverse: " << endl;
+	cout << str << endl;
 
+	// Checking whether a number is prime or not //
+	
+	int input = 0;
 
+	cout << "Type a number: " << endl;
+	cin >> input;
+	
+	for (int i = 2;i < input; i++) {
+		if (input % i == 0) 
+		{
+			temp++;
+		}
+	}
+	if (temp == 2) {
+		cout << "number is Prime" << endl;
+	}
+	else {
+		cout << "number is not Prime" << endl;
+	}
 
 	return 0;
 }
