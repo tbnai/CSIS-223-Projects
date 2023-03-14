@@ -100,5 +100,6 @@ int main()
 		cout << "number is not Prime" << endl;
 	}
 
+
 	return 0;
 }
