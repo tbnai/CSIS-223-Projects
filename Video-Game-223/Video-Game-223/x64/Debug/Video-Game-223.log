@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\CSIS-223-Projects\Video-Game-223\Video-Game-223\Source.cpp(11,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Video-Game-223.vcxproj -> C:\CSIS-223-Projects\Video-Game-223\x64\Debug\Video-Game-223.exe
